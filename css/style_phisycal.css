@@ -1,0 +1,55 @@
+:root{
+  font-size: 16px;
+  --gray30: #212121;
+  --gray20:#212429;
+  --gray10: #616161;
+}
+body {
+  color: var(--gray30);
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  color: var(--gray30);
+}
+
+header {
+  font-size: 14px;
+  color: var(--gray10);
+}
+
+header a {
+  color: var(--gray10);
+  text-decoration: none;
+}
+
+header a:hover{
+  color: var(--gray30);
+}
+
+nav details summary{
+  font-weight: bold;
+}
+
+h1{
+  font-size: 60px;
+  /*font-size: 3.75em;*/
+}
+
+h2{
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+pre{
+  background: #FEC62E;
+}
+
+.hero{
+  background: linear-gradient(to top, rgba(255,255,255, .2), transparent), url(../images/patron.png);
+  /*background-repeat: no-repeat;*/
+  height: 350px;
+}
