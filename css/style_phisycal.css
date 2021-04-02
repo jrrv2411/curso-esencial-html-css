@@ -42,6 +42,7 @@ h2{
 
 h3 {
   font-size: 1.5em;
+  counter-increment: titleList;
 }
 
 pre{
@@ -54,14 +55,15 @@ pre{
   height: 350px;
 }
 
-h3:before{
-  content: "-";
+.section-content h3:before{
+  content: counter(titleList);
 }
 
-h3::after{
+.section-content h3::after{
   content: "";
   width: 80px;
   height: 4px;
   background: var(--gray30);
   display: inline-block;
 }
+
