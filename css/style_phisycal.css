@@ -53,3 +53,15 @@ pre{
   /*background-repeat: no-repeat;*/
   height: 350px;
 }
+
+h3:before{
+  content: "-";
+}
+
+h3::after{
+  content: "";
+  width: 80px;
+  height: 4px;
+  background: var(--gray30);
+  display: inline-block;
+}
