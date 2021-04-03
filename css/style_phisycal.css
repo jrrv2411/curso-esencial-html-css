@@ -39,11 +39,6 @@ h1{
   margin-bottom: 16px;
 }
 
-/* h1 + p{
-  margin-bottom: 64px;
-}
- */
-
 h2{
   font-size: 2em;
   font-weight: normal;
@@ -79,6 +74,9 @@ hr{
 
 pre{
   background: #FEC62E;
+  padding: 40px;
+  font-family: "Roboto";
+  line-height: 24px;
 }
 
 .hero{
@@ -105,7 +103,8 @@ pre{
 }
 
 .section-content h3:before{
-  content: counter(titleList);
+  content: counter(titleList, decimal) ". ";
+  padding-bottom: 4px;
 }
 
 .section-content h3::after{
@@ -122,5 +121,6 @@ pre{
 
 blockquote{
   margin: 32px 0;
+  padding-left: 16px;
 }
 
