@@ -86,7 +86,6 @@ pre{
 }
 
 .section-content ul li{
-/*   background: red; */
   margin-bottom: 16px;
 }
 
@@ -122,5 +121,16 @@ pre{
 blockquote{
   margin: 32px 0;
   padding-left: 16px;
+  line-height: 24px;
+  border-left: 4px solid var(--gray30);
+}
+
+blockquote p span::before{
+  content: "- ";
+
+}
+
+blockquote p span{
+  color: var(--gray10);
 }
 
