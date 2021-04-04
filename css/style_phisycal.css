@@ -134,3 +134,15 @@ blockquote p span{
   color: var(--gray10);
 }
 
+.main{
+  border: 1px red solid;
+}
+
+.w-main{
+  width: 970px;
+  margin: auto;
+}
+
+.main-content{
+  padding: 20px;
+}
